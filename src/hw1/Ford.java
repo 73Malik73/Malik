@@ -1,3 +1,5 @@
+package hw1;
+
 public class Ford extends Auto implements Stand {
     public Ford(String model, int yearOfIssue) {
         super(model, yearOfIssue);
@@ -5,7 +7,7 @@ public class Ford extends Auto implements Stand {
 
     @Override
     public void stand() {
-        System.out.println("Ford грациозно стоит");
+        System.out.println("hw1.Ford грациозно стоит");
     }
 
     private boolean heatedWindshield = true;

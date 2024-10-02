@@ -1,3 +1,6 @@
+import hw1.Ford;
+import hw1.Lada;
+
 import java.util.Arrays;
 
 public class Main {

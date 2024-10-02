@@ -1,3 +1,5 @@
+package hw1;
+
 public class Lada extends Auto implements Movement {
     public Lada(String model, int yearOfIssue) {
         super(model, yearOfIssue);
@@ -6,7 +8,7 @@ public class Lada extends Auto implements Movement {
     @Override
     public void movingForward() {
         for (int i = 0; i < 5; i++) {
-            System.out.println("Lada едет вперед");
+            System.out.println("hw1.Lada едет вперед");
         }
     }
 
@@ -15,7 +17,7 @@ public class Lada extends Auto implements Movement {
         if (isWallBehind) {
             System.out.println("Нельзя ехать назад");
         } else {
-            System.out.println("Lada едет назад");
+            System.out.println("hw1.Lada едет назад");
         }
     }
 

@@ -1,3 +1,5 @@
+package hw1;
+
 public abstract class Auto {
     protected String model;
     protected int yearOfIssue;
@@ -7,7 +9,7 @@ public abstract class Auto {
         this.yearOfIssue = yearOfIssue;
     }
 
-    protected void startEngine() {
+    public void startEngine() {
         System.out.println("Врум-врум");
     }
 }
